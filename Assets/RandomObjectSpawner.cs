@@ -19,6 +19,11 @@ public class RandomObjectSpawner : MonoBehaviour {
 			lastSpawn = Time.time;
 		}
 	
-		transform.position = new Vector3(Mathf.Sin(Time.time * moveSpeed) * moveDistance, 5, 0);
+		transform.position = new Vector3(Mathf.Sin(Time.time * moveSpeed) * moveDistance, 6, 0);
+
+		if (Time.time > 15) {
+			spawnInterval = 0;
+		}
 	}
+
 }

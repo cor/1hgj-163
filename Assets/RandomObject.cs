@@ -10,11 +10,17 @@ public class RandomObject : MonoBehaviour {
 		SpriteRenderer sr = GetComponent<SpriteRenderer>();
 		sr.sprite = sprites[Random.Range(0,sprites.Length)];
 
-		
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
+	}
+	
+	void OnMouseDown() {
+		Debug.Log("click!");
+		GameObject.Find("GameManager").GetComponent<GameManager>().score++;
+		Destroy(gameObject);
 	}
 }
