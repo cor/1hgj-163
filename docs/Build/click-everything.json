@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "1hgj-163",
+"dataUrl": "click-everything.data.unityweb",
+"asmCodeUrl": "click-everything.asm.code.unityweb",
+"asmMemoryUrl": "click-everything.asm.memory.unityweb",
+"asmFrameworkUrl": "click-everything.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
